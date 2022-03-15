@@ -287,5 +287,5 @@ corn.addEventListener('click', function()  {
 prikaz.addEventListener('click', function() {
     off();
     prikaz.classList.toggle('hidden');
-    console.log('jebatga');
+    console.log('works');
 });
