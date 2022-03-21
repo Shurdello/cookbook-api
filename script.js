@@ -117,7 +117,7 @@ fennel.addEventListener('click', function() {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
             
         })
 })
@@ -135,7 +135,7 @@ barli.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -151,7 +151,7 @@ carrota.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -167,7 +167,7 @@ lobster.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -183,7 +183,7 @@ alsace.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -199,7 +199,7 @@ onion.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -215,7 +215,7 @@ orange.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -231,7 +231,7 @@ bean.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -247,7 +247,7 @@ broc.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -263,7 +263,7 @@ cauli.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -279,7 +279,7 @@ corn.addEventListener('click', function()  {
             document.querySelector(".soups").style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -304,7 +304,7 @@ duck.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -320,7 +320,7 @@ liver.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -336,7 +336,7 @@ snails.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -352,7 +352,7 @@ stuffedOnion.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -368,7 +368,7 @@ shrimp.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -384,7 +384,7 @@ blinis.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -400,7 +400,7 @@ hamRolls.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -416,7 +416,7 @@ celery.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -432,7 +432,7 @@ tartarSalmon.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -448,7 +448,7 @@ spinachTart.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -464,7 +464,7 @@ phylo.addEventListener('click', function()  {
             appetizers.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -482,7 +482,7 @@ coq.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -498,7 +498,7 @@ westfalisher.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -514,7 +514,7 @@ flamande.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -530,7 +530,7 @@ roulade.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -546,7 +546,7 @@ koenig.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -562,7 +562,7 @@ turkey.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -578,7 +578,7 @@ cellEscalope.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -594,7 +594,7 @@ entrecote.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -610,7 +610,7 @@ marnier.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -626,7 +626,7 @@ beefburg.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
@@ -642,7 +642,7 @@ butterFish.addEventListener('click', function()  {
             mainCourse.style.display = "none";
             on();
             prikaz.classList.toggle('hidden');
-            prikaz.innerHTML = sastojci + "\n" + preparacija + "\n" + servis;
+            prikaz.innerHTML = sastojci + " - " + preparacija + " - " + servis;
         })
 });
 
