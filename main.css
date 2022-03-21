@@ -8,7 +8,7 @@ body {
     background-image: url(./image/chef.jpg);
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -48,6 +48,37 @@ nav {
     margin-right: 25%;
     align-content: center;
 }
+
+.appetizers {
+    background-color: tomato;
+    width: 45%;
+    height: auto;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    font-family: 'Roboto', sans-serif;
+    padding: 3%;
+    margin-top: 2%;
+    color:yellow;
+    z-index: -3;
+}
+
+.entree {
+    background-color: tomato;
+    width: 45%;
+    height: auto;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    font-family: 'Roboto', sans-serif;
+    padding: 3%;
+    margin-top: 2%;
+    color:yellow;
+    z-index: -3;
+}
+
 a {
     display:list-item;
     font-size: xx-large;
@@ -57,7 +88,6 @@ a {
     cursor: pointer;
 }
 a:hover {
-    color:chartreuse;
     background-color: black;
     color: yellow;
     transform: scale(1.1);
@@ -96,7 +126,7 @@ a:hover {
     z-index: -2; 
     cursor: pointer; 
   }
-  #text{
+#text{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -104,4 +134,7 @@ a:hover {
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-  }
+}
+
+
+
