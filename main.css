@@ -11,9 +11,44 @@ body {
     overflow-x: hidden;
 }
 
+@media screen and (min-width: 1000px) {
+nav {
+    background: linear-gradient(to right, transparent, #960018, transparent, green, transparent);   
+    width: 45%;
+    height: 5%;
+    font-size: x-large;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    }
+}
+
+nav:hover {
+    background: linear-gradient(to right, transparent, green, transparent, #960018, transparent, transparent);
+}
+
+@media screen and (min-width: 1000px) {
+.navbut {
+    background-color: transparent;
+    width: auto;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 7%;
+    color: wheat;
+    border: none;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: x-large;
+    }
+} 
+@media screen and (max-width: 999px) {
 
 nav {
-    background-color: tomato;
+    background: linear-gradient(transparent, #960018, transparent, green, transparent);    
     color: black;
     width: 45%;
     height: 5%;
@@ -21,90 +56,103 @@ nav {
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-
+    align-items: center;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    }
 }
+@media screen and (max-width: 999px) {
 .navbut {
-    width: auto;
-    height: 50px;
-    margin-top: 0%;
-    margin-left: 9%;
-    border: none;
-    color: black;
-    font-weight: bolder;
-    font-family: Melon Honey;
-    font-size: x-large;
     background-color: transparent;
-}
+    width: auto;
+    height: 40px;
+    margin-right: 3%;
+    color: wheat;
+    border: none;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: large;
+    }
+}      
+
 .navbut:hover {
+    background-color:transparent;  
     transform: scale(2);
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 .soups {
-    background-color: tomato;
+    background: linear-gradient(transparent, green, transparent);
     width: auto;
     margin-top: 3%;
-    padding: 5vw;
+    padding: 3vw;
     margin-left: 25%;
     margin-right: 25%;
-    align-content: center;
+    text-align: center;
+    list-style-type: none;
 }
 
 .appetizers {
-    background-color: tomato;
-    width: 45%;
-    height: auto;
-    font-size: xx-large;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vw;
-    font-family: 'Roboto', sans-serif;
-    padding: 3%;
-    margin-top: 2%;
-    color:yellow;
-    z-index: -3;
+    background: linear-gradient(transparent, green, transparent);
+    width: auto;
+    margin-top: 3%;
+    padding: 3vw;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    list-style-type: none;
 }
 
 .entree {
-    background-color: tomato;
-    width: 45%;
-    height: auto;
-    font-size: xx-large;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vw;
-    font-family: 'Roboto', sans-serif;
-    padding: 3%;
-    margin-top: 2%;
-    color:yellow;
-    z-index: -3;
+    background: linear-gradient(transparent, green, transparent);
+    width: auto;
+    margin-top: 3%;
+    padding: 3vw;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    list-style-type: none;
 }
-
+@media screen and (max-width: 999px) {
 a {
     display:list-item;
-    font-size: xx-large;
-    color: black;
+    font-size: large;
+    color: wheat;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    margin-top: 1vh;
+    }
 }
+
+@media screen and (min-width: 1000px) {
+    a {
+        display:list-item;
+        font-size: xx-large;
+        color: wheat;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        margin-top: 1vh;
+        }
+}
+
 a:hover {
-    background-color: black;
-    color: yellow;
-    transform: scale(1.1);
+    background: linear-gradient(to right, transparent, transparent, green, #960018, transparent, green, #960018, transparent, transparent);
+    transform: scale(1.2);
 }
 .prikazSupe {
     display: block;
-    background-color: tomato;
-    width: 40%;
+    background: linear-gradient(transparent, green, transparent);    width: 40%;
     height: auto;
     font-size: xx-large;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vw;
+    margin-top: 7vw;
     font-family: 'Roboto', sans-serif;
     padding: 3%;
-    margin-top: 2%;
-    color:black;
+    color:wheat;
     z-index: -3;
 }
 
